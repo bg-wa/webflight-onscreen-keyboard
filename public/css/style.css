@@ -2,7 +2,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  top: 0;
+  top: 21px;
   width: 260px;
   background: #888;
 }
@@ -28,20 +28,23 @@
   right: 260px;
 }
 
-#stop, #emergency{
+#stop, #emergency, #camera{
   width:260px;
 }
 
 #takeoff{
-  background:green;
+  background:#449d44;
+  color: #ffffff;
 }
 
 #land{
-  background:yellow;
+  background:#e6931e;
+  color: #ffffff;
 }
 
 #emergency{
-  background:red;
+  background:#ab413e;
+  color: #ffffff;
 }
 
 #emergency:hover, #takeoff:hover, #land:hover{
